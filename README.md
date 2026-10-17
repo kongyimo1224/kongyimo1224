@@ -52,8 +52,10 @@ Most of my work is in **C++ and OpenGL**, with side trips into Unity, Unreal Eng
 - TFT-style shop, unit merging and a 7-round roguelike campaign.
 
 ### ChargedUp — EV journey planner for industry client Upsight
-`TypeScript` `Next.js` `Babylon.js` `MapLibre GL` · Tech Lead, 8-person team · Sep 2026 – present
+## 🧭 Tech Lead · leading an 8-person team
+`TypeScript` `Next.js` `Babylon.js` `MapLibre GL` · Sep 2026 – present
 
+- Own architecture, milestone delivery and client communication for a 6-milestone industry engagement.
 - Custom Babylon.js 3D city renderer sharing MapLibre GL's WebGL context: vector-tile streaming, Web Worker mesh building, spatial batching, culling, adaptive LOD.
 - Explainable charger-ranking engine; 200+ automated tests; CI on Windows & Linux; Docker + Jenkins deployment.
 
