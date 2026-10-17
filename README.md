@@ -16,13 +16,15 @@ Most of my work is in **C++ and OpenGL**, with side trips into Unity, Unreal Eng
 ### Bloody Good Curry — custom C++ 2D engine, editor & shipped game
 `C++` `OpenGL` `ImGui` `FMOD` `Emscripten` · 7-person team · Sep 2025 – Apr 2026
 
+### ▶️ [Play it in your browser](https://bloodygoodcurry.netlify.app/)
+
 <!-- assets/bgc.gif : 5–10 s gameplay clip + 3 s of the editor gizmo -->
 
 - Primary author of the **render system**: game/editor viewports, camera, screen-to-world picking, multi-pass draw orchestration.
 - **GPU-instanced sprite batching** → draw calls down **38% (250 → 156 per frame)** in the densest level.
 - Fixed-timestep main loop, per-frame CPU profiler with in-game HUD.
 - ImGui editor tools: transform gizmo with undo/redo, editor camera, sprite-sheet animation editor.
-- Shipped as a Windows build and a WebAssembly browser build.
+- Shipped as a Windows build and a WebAssembly/WebGL browser build — [playable online](https://bloodygoodcurry.netlify.app/).
 
 ### Real-Time Rendering Portfolio
 `C++` `OpenGL` `GLSL`
